@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+ul {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    overflow: hidden;
+    background-color:#474e5d;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+li a:hover {
+    background-color:black;
+}
+
+
+
+
+
+img.gg
+{
+height: 450px;
+width: 305px;
+/*border-radius: 20px;*/
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+h1{
+    background-image: linear-gradient(to left, rgb(43, 135, 189), rgb(0, 0, 0), #474e5d, #474e5d, rgb(253, 250, 250), rgb(187, 131, 28), rgb(216, 14, 172));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 50px;
+} 
+
+.snack{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+div.im1{
+    
+   /* border: 3px solid #474e5d;*/
+    width: 306px;
+    height: 560px;
+    margin: 8px 8px;
+    border-radius: 25px;
+    /*background-color: #474e5d;*/
+    box-shadow: rgba(255, 254, 254, 0.719) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+a.a1{
+    color: rgb(245, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+button.im1{
+    background-color:#474e5d;
+    border-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    padding:0.7em 2em;
+    border-radius: 8px;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*img.bg-img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 370%;
+    
+}*/
